@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: grid;
+    grid-template-rows: auto auto;
+    column-gap: normal;
+
+}
+   
+.up{
+    margin-top: -3%;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-image: url(/assets/Rectangle\ 1.png);
+    position: relative;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: top;
+    width: 100%;
+    height: 80vh;
+    display: grid;
+}
+
+    
+    
+#nav{
+    margin-left: 100px;
+}
+.nav{
+        margin: auto;
+        padding-top: 70px;
+}
+
+.eb{
+    position: relative;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: top;
+    padding-top: 90px;
+    width: 70%;
+    height: 40vh;
+    display: grid;
+}
+.assets{
+    position: relative;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: top;
+    margin-top: -100px;
+    width: 100%;
+    height: 95.7vh;
+    display: grid;
+}
+#nav-2{
+    background-image: url(/assets/Rectangle\ 2.png);
+    position: relative;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: top;
+    justify-content: center;
+    width: 100%;
+    height: 193px;
+    margin-top: -20px;
+}
+#nav-2 .house{ 
+    /* background-color: brown; */
+    margin: auto;
+    width: 90vw;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 100px;
+    justify-content: center;
+    align-content: center;
+}
+.wet{
+    margin-top: 20px;
+}
+.wet:hover{
+    width: 300px;
+    transition: 1s;
+  }
+#wet{
+margin-top: -10px;
+  }
+#wet:hover{
+    width: 300px;
+    transition: 1s;
+  }
+.room{
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+.floor{
+    display: grid;
+    justify-self: center;
+    padding-top: 5px;
+}
