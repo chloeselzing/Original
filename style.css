@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
 }
+
 .house img{
     margin-top: 20px;
     width: 210px;
@@ -17,8 +18,24 @@ font: normal;
 font-size: 12px;
     
 }
-.rice:hover{
-    width: 240px;
-    height: 120px;
-    transition: width 1s;
+@media screen and (max-width: 915px) {
+    #img{
+      display: none;
+    }
   }
+  .rice{
+    
+    display: inline-block;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .rice:hover, .rice:focus, .rice:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  
