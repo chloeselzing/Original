@@ -1,17 +1,22 @@
-*{
-    padding: 0px;
-    margin: 0px;
-}
 
-.house img{
+div.house img{
+    display: inline-block;
     margin-top: 20px;
-    width: 210px;
-    height: 100px;
+    width: 150px;
+    height: 80px;
+    
 }
-.house div{
-    /* color: red; */
+div.house{
+    overflow: auto;
+    white-space: nowrap;
     text-align: center;
     color: rgb(209, 215, 219);
+}
+div.house img:hover {
+  transform: scale(1.5);
+  margin: 2rem;
+  
+  
 }
 span{
 font: normal;
@@ -23,7 +28,7 @@ font-size: 12px;
       display: none;
     }
   }
-  .rice{
+  /* .rice{
     
     display: inline-block;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -33,9 +38,7 @@ font-size: 12px;
     transition-duration: 0.3s;
     -webkit-transition-property: transform;
     transition-property: transform;
+  } */
+  /* .rice:hover, .rice:focus, .rice:active {
   }
-  .rice:hover, .rice:focus, .rice:active {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-  
+   */
