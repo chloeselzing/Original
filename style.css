@@ -21,9 +21,20 @@ font-size: 12px;
 @media screen and (max-width: 915px) {
     #img{
       display: none;
-    }
-
+    }  
+   
   }
+  @media screen and (max-width: 915px) {
+   #web{
+     text-decoration: none;
+     display: none;
+
+   }
+   
+  }
+
+ 
+  
   .rice{
     padding: 45px;
   }
