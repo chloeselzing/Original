@@ -19,23 +19,23 @@ font-size: 12px;
     
 }
 @media screen and (max-width: 915px) {
-    #img{
+    .collapse{
       display: none;
-    }  
+    } #img{
+      display: none;
+    }  #web{
+      text-decoration: none;
+      display: none;
+    }
    
   }
-  @media screen and (max-width: 915px) {
-   #web{
-     text-decoration: none;
-     display: none;
-
-   }
-   
+  @media screen and (min-width:1024px) {
+    #icon{
+      display: none;
+      
+    }
   }
-
- 
-  
-  .rice{
+   .rice{
     padding: 45px;
   }
  .scrollmenu{
